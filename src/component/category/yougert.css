@@ -1,0 +1,107 @@
+.main{
+    /* max-width: 1350px;
+    margin: 0 auto; */
+
+}
+.yougert{
+    max-width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}.price{
+    display: flex;
+    justify-content: space-between;
+}
+.y-flex{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.nameprice{
+    display: flex;
+    align-items: center;
+
+}
+.pro-card{
+   height: 400px;
+   width: 300px;
+
+}
+.y-right img{
+    width: 300px;
+}
+.categ{
+    width: 300px;
+    height: 300px;
+    border: 2px solid #444;
+    padding: 30px;
+
+}
+.cata-border{
+    display: flex;
+    align-items: center;
+
+    gap: 10px;
+}
+.lines{
+    border: 1px solid #444;
+    height: 1px;
+    width: 50px;
+}
+.cata-border h4{
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 1.2px;
+}.categ p{
+    font-size: 18px;
+    letter-spacing: 1.2px;
+    line-height: 1.5;
+    font-weight: 600;
+    color: #444;
+}.cata-names{
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}.view{
+    font-size: 23px;
+    margin-bottom: 30px;
+}.vi{
+    display: flex;
+    gap: 10px;
+
+}
+.gir{
+    border: 2px solid goldenrod;
+    padding: 8px;
+transition: 0.8s;
+}
+.gir:hover{
+    background-color: goldenrod;
+    border: 2px solid #444;
+
+}.y-right img{
+    width: 300px;
+    margin-top: 20px;
+ 
+}.tops{
+    display: flex;
+    font-size: 20px;
+    letter-spacing: 1.3px;
+    gap: 10px;
+}.p{color: rgb(206, 171, 82);
+font-weight: 600;
+}
+@media  screen and (max-width: 950px){
+.yougert{
+    margin: 20px;
+    flex-direction: column;
+}.y-flex{
+    flex-direction: column;
+}
+}

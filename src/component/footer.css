@@ -1,0 +1,151 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+  background-color: rgb(23, 22, 22);
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 60px;
+  max-width: 1350px;
+  margin: 0 auto;
+}
+.one{
+  display: flex;
+  flex-direction: column;
+ 
+  gap: 30px;
+}
+.f-head{
+  font-size: 19px;
+  font-weight: 600;
+}
+.one ul{
+  display: flex;
+
+  flex-direction: column;
+  gap: 10px;
+}
+.one ul li{
+  text-decoration: none;
+  list-style: none;
+}
+.one ul li img{
+width: 15px;
+}
+.one ul li:hover{
+color: rgb(89, 81, 60);
+}
+.border-line{
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  gap: 40px;
+  
+}
+.line{
+  width: 500px;
+  height: 2px;
+  background-color: #c79412;
+}
+.border-heading{
+  font-size: 30px;
+}
+.main-news{
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.mail-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  height: 200px;
+  border: 2px solid goldenrod;
+
+  margin: 50px;
+}
+.news{
+position: relative;
+
+
+}
+.main-footer{
+background-color: rgb(23, 22, 22);
+}
+.mail-icon{
+  position: absolute;
+  left: -50px;
+}
+.news input{
+  width: 100%;
+  padding: 10px;
+  border:  1px solid gray;
+  border-radius: 5px;
+  outline: none;
+  font-size: 1rem;
+  /* background-color: #1d2b3a; */
+}
+.news span{
+  position: absolute;
+  left: 0;
+  padding: 10px;
+  font-size: 1rem;
+  color: gray;
+  text-transform: uppercase;
+}
+.news input:valid,
+.news input:focus{
+border: 2px solid goldenrod;
+}
+
+.news input:valid ~ span,
+.news input:focus ~ span
+{
+color: rgb(205, 148, 2);
+transform: translateX(10px) translateY(-7px);
+padding: 0 10px;
+background: #fff;
+font-size: 0.85rem;
+border-left:1px solid goldenrod ;
+border-right:1px solid goldenrod ;
+letter-spacing: 0.2em;
+
+}
+.news:nth-child(2) input:valid ~ span,
+.news:nth-child(2) input:focus ~ span{
+background-color:goldenrod;
+}
+@media  screen and (max-width: 950px){
+.footer{
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}.one{
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}.one::after{
+  content: "";
+  position: absolute;
+  width: 150px;
+  height: 3px;
+  background-color: #c79412;
+  top:35px;
+}
+}
