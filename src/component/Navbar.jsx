@@ -31,7 +31,7 @@ import "./nav.css"
 const subData=[
   {id:1 ,name:<Link to='/cheese' style={{color:'black',textDecoration:'none'}}>"CHEESE" </Link>},
   {id:2 ,name:<Link to='/ghee'  style={{color:'black',textDecoration:'none'}}>"PURE GHEE" </Link> },
-  {id:3 ,name:<Link to='/yougert'  style={{color:'black',textDecoration:'none'}}>"YOUGERT"</Link> },
+  {id:3 ,name:<Link to='/yougert'  style={{color:'black',textDecoration:'none'}}>"YOGURT"</Link> },
 
 
 ];
@@ -40,6 +40,7 @@ const subData=[
 //     ToggleButton.class.remove('active');
 //     BiSidebar.classlist.remove('active')
 //   }
+// }
 
 const Navbar = () => {
 
@@ -125,7 +126,7 @@ const [mobileLink, setMobileLink] = useState(false);
         </Link>
         <div className="drop"   onMouseEnter={()=>setShowCatMenu(true)}
         onMouseLeave={()=>setShowCatMenu(false)}>
-        <div className="nav-name nav-shop" ><span data-text='SHOP'>SHOPE</span></div>
+        <div className="nav-name nav-shop" ><span data-text='SHOP'>SHOP</span></div>
         <BiSolidChevronDown className='down' size='30px' color='goldenrod'/>
         { showCatMenu &&(
         <ul className='absolute'>
@@ -178,7 +179,7 @@ const [mobileLink, setMobileLink] = useState(false);
         
         </div>
    
-        <div className="nav-name"  style={{color:'black',textDecorationLine:'none'}}><span data-text='CONTECT US'>CONTECT US</span></div>
+        <div className="nav-name"  style={{color:'black',textDecorationLine:'none'}}><span data-text='CONTACT US'>CONTACT US</span></div>
    
       </li>
       </Link>

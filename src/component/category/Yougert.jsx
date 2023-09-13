@@ -27,7 +27,7 @@ const Yougert = () => {
     <p>CHEESES</p>
 
     <p>PURE GHEE</p>
-    <p>YOUGERTS</p>
+    <p>YOGURTS</p>
   </div>
 </div>
 <img src="./images/youg.avif" alt="food" />
@@ -39,11 +39,11 @@ const Yougert = () => {
           
             <div>HOME /</div>
             <p>SHOP /</p>
-            <p  className="p">YOUGERTS</p>
+            <p  className="p">YOUGRTS</p>
             </div>
             <div className="border-line">
       <div className="line"></div>
-      <div className="border-heading">YOUGERTS Collection </div>
+      <div className="border-heading">YOGURTS Collection </div>
       <div className="line"></div>
       </div>
       <div className="view">
@@ -68,7 +68,7 @@ const Yougert = () => {
     <div className="cart-icn"><AiFillEye size='30px' color='#b88910' /></div>
     </div>
 
-<div className="name">Sweet Yougert</div>
+<div className="name">Sweet Yogurt</div>
   <div className="price">
     <p>Rs: 180.00</p>
     <p>Weight:900g</p>
@@ -101,7 +101,7 @@ const Yougert = () => {
     <div className="cart-icn"><AiFillEye size='30px' color='#b88910' /></div>
     </div>
 
-  <div className="name">Sweet Yougert</div>
+  <div className="name">Sweet Yogurt</div>
   <div className="price">
     <p>Rs</p>
     <p>150.00</p>
@@ -131,7 +131,7 @@ const Yougert = () => {
     <div className="cart-icn"><AiFillEye size='30px' color='#b88910' /></div>
     </div>
 
-  <div className="name">Sweet Yougert</div>
+  <div className="name">Sweet Yogurt</div>
   <div className="price">
     <p>Rs</p>
     <p>150.00</p>
