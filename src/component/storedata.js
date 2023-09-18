@@ -9,7 +9,7 @@ const storedata=[
     // text:'Plain yougert made by cow milk rich in taste',url:"./images/y-900g-r.png"},
     {id:2,price:'130',weight:'450g',heading:'Plain Yogurt',
     text:'Plain yogurt made by cow milk rich in taste',url:"./images/plain-y450g-r.png"},
-    {id:3,price:'110',weight:'400g',heading:'Sweet Yougert', 
+    {id:3,price:'110',weight:'400g',heading:'Sweet Yogurt', 
     text:'Sweet yogurt rich in taste and good for health',url:"./images/y-400g-r.png"},
 
 

@@ -29,9 +29,9 @@ import { NavLink } from 'react-router-dom';
 import "./nav.css"
 
 const subData=[
-  {id:1 ,name:<Link to='/cheese' style={{color:'black',textDecoration:'none'}}>"CHEESE" </Link>},
-  {id:2 ,name:<Link to='/ghee'  style={{color:'black',textDecoration:'none'}}>"PURE GHEE" </Link> },
-  {id:3 ,name:<Link to='/yougert'  style={{color:'black',textDecoration:'none'}}>"YOGURT"</Link> },
+  {id:1 ,name:<Link to='/cheese' style={{color:'black',textDecoration:'none'}}>CHEESE </Link>},
+  {id:2 ,name:<Link to='/ghee'  style={{color:'black',textDecoration:'none'}}>PURE GHEE </Link> },
+  {id:3 ,name:<Link to='/yougert'  style={{color:'black',textDecoration:'none'}}>YOGURT</Link> },
 
 
 ];
